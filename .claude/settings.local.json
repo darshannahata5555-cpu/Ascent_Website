@@ -1,0 +1,30 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(gh repo *)",
+      "Bash(gh search *)",
+      "Bash(gh api *)",
+      "Bash(npx --yes http-server . -p 5500 --cors -o)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5500/)",
+      "Bash(npx --yes surge --version)",
+      "Bash(npx surge *)",
+      "Bash(gh auth *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(git checkout *)",
+      "Bash(git rm *)",
+      "Bash(git init *)",
+      "Bash(cp -r /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/project/components /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/components)",
+      "Bash(cp -r /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/project/styles /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/styles)",
+      "Bash(cp -r /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/project/uploads /c/Users/darsh_z3dzcqu/Downloads/Ascent-handoff/ascent/uploads)",
+      "Read(//c/Users/darsh_z3dzcqu/AppData/Local/Temp/retro-computer-website//**)",
+      "Read(//c/Users/darsh_z3dzcqu/**)",
+      "Bash(curl -L --progress-bar https://raw.githubusercontent.com/edhinrichsen/retro-computer-website/main/public/models/Commodore710_33.5.glb -o uploads/retro-computer.glb)",
+      "Bash(curl -L --progress-bar https://raw.githubusercontent.com/edhinrichsen/retro-computer-website/main/public/textures/bake-quality-5.jpg -o uploads/bake.jpg)",
+      "Bash(curl -L --progress-bar https://raw.githubusercontent.com/edhinrichsen/retro-computer-website/main/public/textures/bake_floor-quality-3.jpg -o uploads/bake_floor.jpg)",
+      "mcp__Claude_Preview__preview_start"
+    ]
+  }
+}
